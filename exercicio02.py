@@ -6,7 +6,10 @@ trabalhoX = int(input("Digite o tempo do trabalhoX"))
 trabalhoY = int(input("Digite o tempo do trabalhoY"))
 trabalhoZ = int(input("Digite o tempo do trabalhoZ"))
 
-if any > 0 :
+numero = 20
+if numero >= 0 :
     print("Entregue à tempo.")
-elif any < 0 :
-    print("Não entregue à tempo.")
+else:
+    print("não entregue à tempo.")
+
+#não terminado.
