@@ -8,4 +8,4 @@ umidade = 20
 if umidade >= 20:
     print("umidade normal.")
 elif umidade > 20:
-    print("A umidade ultrapasou o limite.")
+    print("A umidade ultrapassou o limite.")
