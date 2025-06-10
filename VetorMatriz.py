@@ -11,4 +11,6 @@ for i, aluno in enumerate (alunos) :
             reservas[i] [i] = "Presente"
 
 print("\nTabela de reservas:")
-print(f"{'Aluno':<10} 
+print(f"{'Aluno':<10}{''.join([f'{d:<10}'for d in dias])}")
+for i, aluno in enumerate (alunos):
+    print{f"{aluno:<10} {''.join([f'{res:<10}'for res in reservas [i]])}"}
