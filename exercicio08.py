@@ -8,4 +8,7 @@ distância = float(input("Digite a distância"))
 
 if distância == 50:
     print("Frete de 5 reais.")
-elif distância <=
+elif distância >=151:
+    print("Frete de 25 reais.")
+else:
+    print("Frete de 15 reais.")
