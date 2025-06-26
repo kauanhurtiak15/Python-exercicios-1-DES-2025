@@ -6,4 +6,8 @@
 valor = int(input("Digite o valor da compra: "))
 
 if valor > 500:
-    print("Desconto de 10%")
+    print("Desconto de 10%.")
+elif valor > 300:
+    print("Desconto de 5%.")
+elif valor <= 300:
+    print("Não tem desconto.")
